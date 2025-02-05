@@ -11589,13 +11589,16 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
+  height: 50vw;
+  max-height: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 1px;
   left: 50%;
   transform: translateX(-50%);
+  border-radius:  5%; /* Creates a circular curve */
+  overflow: hidden; /* Ensures the image conforms to the curve */
 }
+
 .profile .dots-1 {
   position: absolute;
   width: 3vw;
